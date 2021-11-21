@@ -1,0 +1,27 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/blogs":
+    get:
+      summary: Creates a blog
+      tags:
+      - Blogs
+      responses:
+        '200':
+          description: hello world!
+  "/api/v1/demo_api":
+    get:
+      summary: demo swagger
+      tags:
+      - Blogs
+      responses:
+        '200':
+          description: hello swagger!
+servers:
+- url: http://{defaultHost}
+  variables:
+    defaultHost:
+      default: www.example.com
