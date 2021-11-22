@@ -12,17 +12,17 @@
 
 - Chạy lệnh cài đặt và khởi tạo `rails g rswag:install`
 - Khai báo 1 API bất kỳ:
-`
+```
 class Api::V1::DemoApiController < ApplicationController
   def index
     render json: "hello swagger"
   end
 end
-`
+```
 - Viết spec cho API:
   - Rswag chỉ đọc được khi mình viết spec vào `spec/api` hoặc `spec/integration`
 
-`
+```
 spec/integration/demo_api_spec.rb
 
 require 'swagger_helper'
@@ -41,5 +41,5 @@ describe 'Demo API' do
     end
   end
 end
-`
+```
 # demo-rswag
