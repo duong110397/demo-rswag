@@ -18,3 +18,5 @@ Chắc hẳn mỗi anh em đều đã không ít lần chửi thề vì phải t
 
 # Kết luận
 Tóm lại, API doc tuy không phải là thứ mà người dùng cuối quan tâm tới, nhưng nó sẽ rất cần thiết cho các dev hay khách hàng trong thời gian phát triển, maintain. Thực tế thì những anh em dev cũng không mấy mặn mà trong việc chăm chút API doc của mình, và thậm chí để có 1 bản tài liệu tốt, anh em dev sẽ phải mất tương đối nhiều thời gian, nhưng sau bài viết này, mình rất mong anh em sẽ có cái nhìn khác về API doc, không ngại ngùng khi bắt tay vào viết tài liệu và sẽ chăm chút cho chúng một cách tỉ mỉ, trách nhiệm nhất có thể.
+
+Cảm ơn mọi người vì đã dành thời gian để đọc bài ^^
